@@ -1,8 +1,6 @@
-import { PrismaClient } from "@prisma/client";
+import prisma from "../../../prisma/prisma.js";
 
 const getProperties = async (location, pricePerNight) => {
-  const prisma = new PrismaClient();
-
   const newPricePerNight = pricePerNight
     ? parseFloat(pricePerNight)
     : undefined;

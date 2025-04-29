@@ -1,8 +1,7 @@
-import { PrismaClient } from "@prisma/client";
+import prisma from "../../../prisma/prisma.js";
 import NotFoundError from "../../errors/notFoundError.js";
 
 const updateReviewById = async (id, userId, propertyId, rating, comment) => {
-  const prisma = new PrismaClient();
   const updatedReview = await prisma.review.updateMany({
     where: {
       id,

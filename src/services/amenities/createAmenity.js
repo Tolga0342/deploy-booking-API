@@ -1,8 +1,6 @@
-import { PrismaClient } from "@prisma/client";
+import prisma from "../../../prisma/prisma.js";
 
 const createAmenity = async (name) => {
-  const prisma = new PrismaClient();
-
   if (!name) {
     // throw new Error("name not found");
     return null;

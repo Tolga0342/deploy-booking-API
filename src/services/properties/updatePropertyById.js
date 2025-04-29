@@ -1,4 +1,4 @@
-import { PrismaClient } from "@prisma/client";
+import prisma from "../../../prisma/prisma.js";
 import NotFoundError from "../../errors/notFoundError.js";
 
 const updatePropertyById = async (
@@ -13,7 +13,6 @@ const updatePropertyById = async (
   hostId,
   rating
 ) => {
-  const prisma = new PrismaClient();
   const updatedProperty = await prisma.property.updateMany({
     where: {
       id,

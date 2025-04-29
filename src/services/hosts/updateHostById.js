@@ -1,4 +1,4 @@
-import { PrismaClient } from "@prisma/client";
+import prisma from "../../../prisma/prisma.js";
 import NotFoundError from "../../errors/notFoundError.js";
 
 const updateHostById = async (
@@ -11,7 +11,6 @@ const updateHostById = async (
   profilePicture,
   aboutMe
 ) => {
-  const prisma = new PrismaClient();
   const updatedHost = await prisma.host.updateMany({
     where: {
       id,

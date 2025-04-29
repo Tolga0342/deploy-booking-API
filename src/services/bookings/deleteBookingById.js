@@ -1,9 +1,7 @@
-import { PrismaClient } from "@prisma/client";
+import prisma from "../../../prisma/prisma.js";
 import NotFoundError from "../../errors/notFoundError.js";
 
 const deleteBooking = async (id) => {
-  const prisma = new PrismaClient();
-
   const deleteBooking = await prisma.booking.deleteMany({
     where: {
       id,

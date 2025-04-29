@@ -1,9 +1,7 @@
-import { PrismaClient } from "@prisma/client";
+import prisma from "../../../prisma/prisma.js";
 import NotFoundError from "../../errors/notFoundError.js";
 
 const deleteHost = async (id) => {
-  const prisma = new PrismaClient();
-
   const deleteHost = await prisma.host.deleteMany({
     where: {
       id,

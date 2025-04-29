@@ -1,4 +1,4 @@
-import { PrismaClient } from "@prisma/client";
+import prisma from "../../../prisma/prisma.js";
 
 const createUser = async (
   username,
@@ -8,8 +8,6 @@ const createUser = async (
   phoneNumber,
   profilePicture
 ) => {
-  const prisma = new PrismaClient();
-
   if (!username) {
     // throw new Error("Username not found");
     return null;

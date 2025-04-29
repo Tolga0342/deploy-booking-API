@@ -1,9 +1,7 @@
-import { PrismaClient } from "@prisma/client";
+import prisma from "../../../prisma/prisma.js";
 import NotFoundError from "../../errors/notFoundError.js";
 
 const deleteReview = async (id) => {
-  const prisma = new PrismaClient();
-
   const deleteReview = await prisma.review.deleteMany({
     where: {
       id,

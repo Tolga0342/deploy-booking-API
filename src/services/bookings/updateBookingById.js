@@ -1,4 +1,4 @@
-import { PrismaClient } from "@prisma/client";
+import prisma from "../../../prisma/prisma.js";
 import NotFoundError from "../../errors/notFoundError.js";
 
 const updateBookingById = async (
@@ -11,7 +11,6 @@ const updateBookingById = async (
   totalPrice,
   bookingStatus
 ) => {
-  const prisma = new PrismaClient();
   const updatedBooking = await prisma.booking.updateMany({
     where: {
       id,

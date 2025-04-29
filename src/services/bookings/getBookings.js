@@ -1,8 +1,6 @@
-import { PrismaClient } from "@prisma/client";
+import prisma from "../../../prisma/prisma.js";
 
 const getBookings = async (userId) => {
-  const prisma = new PrismaClient();
-
   return prisma.booking.findMany({
     where: {
       userId,

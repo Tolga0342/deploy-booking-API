@@ -1,8 +1,7 @@
-import { PrismaClient } from "@prisma/client";
+import prisma from "../../../prisma/prisma.js";
 import NotFoundError from "../../errors/notFoundError.js";
 
 const updateAmenityById = async (id, name) => {
-  const prisma = new PrismaClient();
   const updatedAmenity = await prisma.amenity.updateMany({
     where: {
       id,

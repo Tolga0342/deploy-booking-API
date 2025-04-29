@@ -1,4 +1,4 @@
-import { PrismaClient } from "@prisma/client";
+import prisma from "../../../prisma/prisma.js";
 import NotFoundError from "../../errors/notFoundError.js";
 
 const updateUserById = async (
@@ -10,7 +10,6 @@ const updateUserById = async (
   phoneNumber,
   profilePicture
 ) => {
-  const prisma = new PrismaClient();
   const updatedUser = await prisma.user.updateMany({
     where: {
       id,

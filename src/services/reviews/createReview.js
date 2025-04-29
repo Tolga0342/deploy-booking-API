@@ -1,8 +1,6 @@
-import { PrismaClient } from "@prisma/client";
+import prisma from "../../../prisma/prisma.js";
 
 const createReview = async (userId, propertyId, rating, comment) => {
-  const prisma = new PrismaClient();
-
   if (!userId) {
     // throw new Error("UserID not found");
     return null;

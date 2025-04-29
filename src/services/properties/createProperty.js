@@ -1,4 +1,4 @@
-import { PrismaClient } from "@prisma/client";
+import prisma from "../../../prisma/prisma.js";
 
 const createProperty = async (
   title,
@@ -11,8 +11,6 @@ const createProperty = async (
   hostId,
   rating
 ) => {
-  const prisma = new PrismaClient();
-
   if (!title) {
     // throw new Error("title not found");
     return null;
