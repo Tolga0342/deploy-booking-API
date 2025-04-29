@@ -49,7 +49,9 @@ app.use("/bookings", bookingsRouter);
 app.use("/login", loginRouter);
 
 app.get("/", (req, res) => {
-  res.send("Hello world!");
+  res.send(
+    "API PATHS: /users -& /reviews -& /properties -& /hosts -& /amenities -& /bookings"
+  );
 });
 
 app.use(Sentry.Handlers.errorHandler());
