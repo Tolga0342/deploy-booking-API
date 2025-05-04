@@ -19,7 +19,7 @@ RESTful API using NodeJS/Express and prisma focusing on key aspects such as rout
 # features 
 
 - CRUD
-- route handling
+- route handling (URL to /users /reviews /properties /hosts /bookings /amenities)
 - middleware
 - login
 - authentication
