@@ -14,7 +14,19 @@ RESTful API using NodeJS/Express and prisma focusing on key aspects such as rout
 
 - NodeJS
 - Express
-- Prisma 
+- Prisma
+
+# features 
+
+- CRUD
+- route handling
+- middleware
+- login
+- authentication
+- error handling
+- prisma model
+- query parameter
+  
 
 # BED Final Project Starter
 
