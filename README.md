@@ -8,7 +8,7 @@ https://booking-api-567h.onrender.com/
 
 # description
 
-RESTful API using NodeJS/Express focusing on key aspects such as route handling, middleware for tasks like logging, authentication and error handling. The API allows to create, read, update and delete (CRUD) data's. Modelling database with Prisma.
+RESTful API using NodeJS/Express focusing on key aspects such as route handling, middleware for tasks like logging, authentication and error handling. The API allows to create, read, update and delete (CRUD) data's. Also using Prisma for modelling database.
 
 # Technologies used
 
