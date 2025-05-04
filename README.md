@@ -10,6 +10,12 @@ https://booking-api-567h.onrender.com/
 
 RESTful API using NodeJS/Express and prisma focusing on key aspects such as route handling, middleware for tasks like logging, authentication and error handling. The app allows to view, create update and delete data's. 
 
+# Technologies used
+
+- NodeJS
+- Express
+- Prisma 
+
 # BED Final Project Starter
 
 This repository contains starter code for the Bookings project.
