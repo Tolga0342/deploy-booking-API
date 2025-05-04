@@ -37,4 +37,7 @@ RESTful API using NodeJS/Express and prisma focusing on key aspects such as rout
 6. open the terminal within VS code, enter following commands --> npm install and npm run dev
 7. click on the localhost URL in the terminal or copy-paste localhost URL in the browser to view project
 
+![image](https://github.com/user-attachments/assets/90ad2026-cc7c-4cc3-b77f-a4d7f7ab3b61)
+
+
 
