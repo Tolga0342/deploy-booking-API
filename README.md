@@ -30,7 +30,7 @@ RESTful API using NodeJS/Express and prisma focusing on key aspects such as rout
 # local installation 
 
 1. copy the repository link and open (windows) terminal
-choose your directory to clone repository, for example --> C:\Users\Gebruiker\Desktop\
+2. choose your directory to clone repository, for example --> C:\Users\Gebruiker\Desktop\
 enter following command --> git clone https://github.com/Tolga0342/deploy-react-event-app.git
 navigate to the directory where repository is, for example --> C:\Users\Gebruiker\Desktop\deploy-react-event-app
 enter following command in (windows) terminal to open VScode --> code .
