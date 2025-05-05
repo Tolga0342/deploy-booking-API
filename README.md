@@ -43,6 +43,15 @@ RESTful API using NodeJS/Express focusing on key aspects such as route handling,
 
 ![image](https://github.com/user-attachments/assets/3bbf6959-95f7-416e-941f-58b7b110191b)
 
+- path in URL
+![image](https://github.com/user-attachments/assets/bd994a64-7c1b-4d94-af07-48eee4b0d08a)
+
+- query parameter in URL 
+
+![image](https://github.com/user-attachments/assets/74f81c35-d488-4fb3-a5b9-77d68a36c7b0)
+
+
+
 
 
 
