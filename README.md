@@ -40,15 +40,13 @@ RESTful API using NodeJS/Express focusing on key aspects such as route handling,
 # API in action 
 
 - link to API --> https://booking-api-567h.onrender.com/
-
 ![image](https://github.com/user-attachments/assets/3bbf6959-95f7-416e-941f-58b7b110191b)
 
-- path in URL
-![image](https://github.com/user-attachments/assets/bd994a64-7c1b-4d94-af07-48eee4b0d08a)
+- path in URL via postman
+![image](https://github.com/user-attachments/assets/2c906310-2cfe-4c83-91de-bfeaa04e1ffe)
 
-- query parameter in URL 
-
-![image](https://github.com/user-attachments/assets/74f81c35-d488-4fb3-a5b9-77d68a36c7b0)
+- query parameter via postman
+![image](https://github.com/user-attachments/assets/d51e8175-95ab-42a6-8559-87a2802c3a38)
 
 
 
