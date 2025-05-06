@@ -1,62 +1,119 @@
-# BED Final Project Starter
+# project
 
-This repository contains starter code for the Bookings project.
+Booking API
 
-## How to get started
+# live demo 
 
-You can clone the repo, install and run the app with the following commands:
+https://booking-api-567h.onrender.com/
 
-```plaintext
-npm install
-npm run dev
-```
+# description
 
-## Starting the App
+RESTful API using NodeJS/Express focusing on key aspects such as route handling, middleware for tasks like logging, authentication and error handling. Also using Prisma for modelling database. The API allows to create, read, update and delete (CRUD) data's. 
 
-To start the app, follow these steps:
+# Technologies used
 
-1. Create a `.env` file in the root directory.
-2. Replace the values for `AUTH_SECRET_KEY` and `SENTRY_DSN` with your own values.
+- NodeJS
+- Express
+- Prisma
 
-```plaintext
-AUTH_SECRET_KEY=your_secret_key_here
-SENTRY_DSN=your_sentry_dsn_here
-```
+# features 
 
-## Running tests
+- CRUD
+- route handling --> URL to /users -& /reviews -& /properties -& /hosts -& /amenities -& /bookings
+- middleware
+- login
+- authentication
+- error handling
+- prisma model
+- query parameter
 
-Tests are created using Newman, a command-line tool that is able to automate execution of Postman-created tests. Therefore, this command will simulate more or less the same tests that we executed during the course (e.g. test if the "happy case" returns 200 or 201 status code, or it returns 404 Not found when we are requesting a non-existing ID).
+# local installation 
 
-To run the tests, perform the following steps:
+1. copy the repository link and open (windows) terminal
+2. choose your directory to clone repository, for example --> C:\Users\Gebruiker\Desktop\
+3. enter following command --> git clone https://github.com/Tolga0342/deploy-booking-API.git
+4. navigate to the directory where repository is located, for example --> C:\Users\Gebruiker\Desktop\deploy-booking-API>
+5. enter following command in (windows) terminal to open VScode --> code .
+6. open the terminal within VS code, enter following commands --> npm install and npm run dev
+7. click on the localhost URL in the terminal or copy-paste localhost URL in the browser to view project
 
-1. Start the server. This can usually be done by running `npm run dev` in the folder you want to test.
-2. Go to `postman/environments` folder in the repo. It has a content like this:
+# API in action 
 
-```json
-{
-  "id": "f1936dc5-a5da-47d7-8189-045437f96e9e",
-  "name": "Local",
-  "values": [
-    {
-      "key": "baseUrl",
-      "value": "http://0.0.0.0:3000",
-      "type": "default",
-      "enabled": true
-    }
-  ],
-  "_postman_variable_scope": "environment",
-  "_postman_exported_at": "2023-08-11T05:55:13.469Z",
-  "_postman_exported_using": "Postman/10.16.9"
-}
-```
+### 🔗 Live API --> [https://booking-api-567h.onrender.com/](https://booking-api-567h.onrender.com/)
+![image](https://github.com/user-attachments/assets/099c227f-167d-430a-a339-97d4142355ab)
 
-3. If your server is running on a different port or URL, change the value `http://0.0.0.0:3000` to your server's data (this is the default one though).
-4. Run the following command
+---
 
-```plaintext
-npm test
-```
+### 🔹 Standard Request via postman
+![GET standard](https://github.com/user-attachments/assets/2c906310-2cfe-4c83-91de-bfeaa04e1ffe)
 
-After this, you will see the test results prompted to the terminal. If you have a look at the `package.json` file, you will see that it executes the collection stored in the `postman` folder of the repo root.
+---
 
-Important: When dealing with JSON data, please, make sure that you restart the server with `npm run dev` every time you execute tests! This is important because some tests will remove data via DELETE endpoints and that operation cannot be repeated with the same ID again and again.
+### 🔹 With Query Parameter via postman
+![GET query](https://github.com/user-attachments/assets/d51e8175-95ab-42a6-8559-87a2802c3a38)
+
+---
+
+### 🔐 JWT Token Generation via Postman
+![JWT Token](https://github.com/user-attachments/assets/dcae4bff-cfc7-4198-b66d-365580430786)
+
+---
+
+### ➕ POST Method – Creating Data (with JWT token) via postman
+
+![POST 1](https://github.com/user-attachments/assets/4c3e1723-8bc5-4e30-b735-a15598a781be)
+![POST 2](https://github.com/user-attachments/assets/4d9d3fcc-1fe8-4ec9-baa6-d88c265e5a37)
+![POST 3](https://github.com/user-attachments/assets/8db1a3ac-6999-4b7a-88f3-0731a47916e4)
+
+
+
+---
+
+### ✏️ PUT Method – Updating Existing Data (with JWT token) via postman
+
+![PUT 1](https://github.com/user-attachments/assets/b971c505-57da-4f65-89fa-01a1a75a62d6)
+![PUT 2](https://github.com/user-attachments/assets/56049ca3-2e90-4ada-bf12-e65c182e8ca8)
+
+
+---
+
+### ❌ DELETE Method – Removing Data (with JWT token) via postman
+
+![DELETE 1](https://github.com/user-attachments/assets/365f40e6-0587-4b06-8788-98bbc662daf7)
+![DELETE 2](https://github.com/user-attachments/assets/85be8321-06e4-4842-9abf-01438a7ac7f2)
+
+---
+
+### 🚫 No Access Without Token (POST/PUT/DELETE) via postman
+
+![Unauthorized](https://github.com/user-attachments/assets/1dadd5d7-e4bb-407d-a630-7724e122e3e0)
+
+
+---
+
+### 🧾 Logging Middleware in VS Code
+
+![Logging](https://github.com/user-attachments/assets/98cb976d-fd50-4d85-a1e0-a19b64ea5535)
+
+---
+
+### ✅ Running Tests in VS Code (`npm test`)
+
+![Test success](https://github.com/user-attachments/assets/a5b2cbea-47c4-4af5-b490-0a1466189da0)
+![Test fail](https://github.com/user-attachments/assets/7acf5a7e-0957-4603-986d-39834ac3e29e)
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
