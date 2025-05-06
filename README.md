@@ -86,7 +86,8 @@ RESTful API using NodeJS/Express focusing on key aspects such as route handling,
 
 ## 🚫 No Access Without Token (POST/PUT/DELETE) via postman
 
-![Unauthorized](https://github.com/user-attachments/assets/91399c95-e39b-4a43-b8bb-63f9576df816)
+![Unauthorized](https://github.com/user-attachments/assets/1dadd5d7-e4bb-407d-a630-7724e122e3e0)
+
 
 ---
 
