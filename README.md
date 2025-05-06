@@ -63,8 +63,9 @@ RESTful API using NodeJS/Express focusing on key aspects such as route handling,
 
 ### 🔹 Request in Postman
 ![POST 1](https://github.com/user-attachments/assets/4c3e1723-8bc5-4e30-b735-a15598a781be)
-![POST 2](https://github.com/user-attachments/assets/6a2b87ac-6d74-412b-9e3f-a6bc1a23a4c3)
-![POST 3](https://github.com/user-attachments/assets/a19a7d11-a775-4966-8bf4-850216c0f2a9)
+![POST 2](https://github.com/user-attachments/assets/c7e4323c-c270-42bf-973c-8b89a872221d)
+![POST 3](https://github.com/user-attachments/assets/7150d358-547f-426b-a210-eedf5e81b977)
+
 
 ---
 
