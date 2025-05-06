@@ -43,9 +43,12 @@ RESTful API using NodeJS/Express focusing on key aspects such as route handling,
 ### 🔗 Live API --> [https://booking-api-567h.onrender.com/](https://booking-api-567h.onrender.com/)
 ![image](https://github.com/user-attachments/assets/099c227f-167d-430a-a339-97d4142355ab)
 
+---
 
 ### 🔹 Standard Request via postman
 ![GET standard](https://github.com/user-attachments/assets/2c906310-2cfe-4c83-91de-bfeaa04e1ffe)
+
+---
 
 ### 🔹 With Query Parameter via postman
 ![GET query](https://github.com/user-attachments/assets/d51e8175-95ab-42a6-8559-87a2802c3a38)
