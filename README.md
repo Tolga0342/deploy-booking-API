@@ -40,7 +40,7 @@ RESTful API using NodeJS/Express focusing on key aspects such as route handling,
 # API in action 
 
 
-Check out the live API here:  
+### 🔹 Live API
 🔗 [https://booking-api-567h.onrender.com/](https://booking-api-567h.onrender.com/)
 
 ### 🔹 Standard Request
