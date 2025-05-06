@@ -62,23 +62,25 @@ RESTful API using NodeJS/Express focusing on key aspects such as route handling,
 ## ➕ POST Method – Creating Data (with JWT token) via postman
 
 ![POST 1](https://github.com/user-attachments/assets/4c3e1723-8bc5-4e30-b735-a15598a781be)
-![POST 2](https://github.com/user-attachments/assets/c7e4323c-c270-42bf-973c-8b89a872221d)
-![POST 3](https://github.com/user-attachments/assets/7150d358-547f-426b-a210-eedf5e81b977)
+![POST 2](https://github.com/user-attachments/assets/4d9d3fcc-1fe8-4ec9-baa6-d88c265e5a37)
+![POST 3](https://github.com/user-attachments/assets/8db1a3ac-6999-4b7a-88f3-0731a47916e4)
+
 
 
 ---
 
 ## ✏️ PUT Method – Updating Existing Data (with JWT token) via postman
 
-![PUT 1](https://github.com/user-attachments/assets/56d819d5-1594-4946-b081-eaecbacbdb7d)
-![PUT 2](https://github.com/user-attachments/assets/2dded360-42bd-4f12-85c8-d00d1825b1b1)
+![PUT 1](https://github.com/user-attachments/assets/b971c505-57da-4f65-89fa-01a1a75a62d6)
+![PUT 2](https://github.com/user-attachments/assets/56049ca3-2e90-4ada-bf12-e65c182e8ca8)
+
 
 ---
 
 ## ❌ DELETE Method – Removing Data (with JWT token) via postman
 
-![DELETE 1](https://github.com/user-attachments/assets/df19272e-b586-42e6-a1d9-b4ad863edac0)
-![DELETE 2](https://github.com/user-attachments/assets/f2e0427c-998a-4b6e-984a-f7044d31f01f)
+![DELETE 1](https://github.com/user-attachments/assets/365f40e6-0587-4b06-8788-98bbc662daf7)
+![DELETE 2](https://github.com/user-attachments/assets/85be8321-06e4-4842-9abf-01438a7ac7f2)
 
 ---
 
