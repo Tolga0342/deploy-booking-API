@@ -48,6 +48,21 @@ RESTful API using NodeJS/Express focusing on key aspects such as route handling,
 - GET request with query parameter via postman
 ![image](https://github.com/user-attachments/assets/d51e8175-95ab-42a6-8559-87a2802c3a38)
 
+- JWT token created for authorization
+![image](https://github.com/user-attachments/assets/dcae4bff-cfc7-4198-b66d-365580430786)
+
+- POST method creating data with JWT token
+![image](https://github.com/user-attachments/assets/4c3e1723-8bc5-4e30-b735-a15598a781be)
+![image](https://github.com/user-attachments/assets/6a2b87ac-6d74-412b-9e3f-a6bc1a23a4c3)
+![image](https://github.com/user-attachments/assets/a19a7d11-a775-4966-8bf4-850216c0f2a9)
+
+
+
+ 
+
+
+
+
 
 
 
